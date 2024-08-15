@@ -72,7 +72,8 @@ Modify the ``prod.py`` in ``core`` as you desire for production.
       └── settings
          └── prod.py
 ```
-at last run the ``npm run build`` where you would run ``npm run dev`` in development.
+Don't forget to run the ``migrate`` and ``collectstatic`` using ``manage.py``\
+Finally, run the ``npm run build`` where you would run ``npm run dev`` in development.
 
 ## Contributing
 
