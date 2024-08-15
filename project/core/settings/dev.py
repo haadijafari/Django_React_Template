@@ -31,6 +31,7 @@ MEDIA_ROOT = BASE_DIR / 'media_cdn'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
     BASE_DIR / "media",
+    BASE_DIR / "frontend/vite-react/public",
 ]
 
 # reCaptcha
