@@ -32,6 +32,7 @@ STATICFILES_DIRS = [
     BASE_DIR / "static",
     BASE_DIR / "media",
     BASE_DIR / "frontend/vite-react/public",
+    BASE_DIR / "frontend/vite-react/dist",
 ]
 
 # reCaptcha
