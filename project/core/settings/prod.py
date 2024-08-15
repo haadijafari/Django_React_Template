@@ -11,6 +11,7 @@ ALLOWED_HOSTS = [
 
 MIDDLEWARE += [
     'csp.middleware.CSPMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
 
 DATABASES = {
