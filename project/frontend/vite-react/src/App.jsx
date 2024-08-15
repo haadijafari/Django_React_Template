@@ -5,6 +5,7 @@ import 'vite/modulepreload-polyfill'
 function App() {
   const [count, setCount] = useState(0)
     const reactLogo = "/static/assets/react.svg"
+    const djangoLogo = "/static/assets/django.svg"
     const viteLogo = "/static/vite.svg"
 
   return (
@@ -16,8 +17,11 @@ function App() {
         <a href="https://react.dev" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
+        <a href="https://djangoproject.com/" target="_blank">
+          <img src={djangoLogo} className="logo django" alt="Django logo" />
+        </a>
       </div>
-      <h1>Vite + React</h1>
+      <h1>Vite + React + Django</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
