@@ -10,6 +10,12 @@ export default defineConfig({
     rollupOptions: {
       // overwrite default .html entry
       // input: '/path/to/main.js'
+      assetFileNames: (file)=>{
+        return "assets/css/index.min.css"
+      },
+      entryFileName: (file)=>{
+        return"assets/js/[name].min.js"
+      }
     }
   }
 })
