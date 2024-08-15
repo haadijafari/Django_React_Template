@@ -25,6 +25,7 @@ INSTALLED_APPS = [
     # Project Apps
     'auths.user',
     'apps.api',
+    'frontend',
     # Modules
     # 'rest_framework',
 ]
