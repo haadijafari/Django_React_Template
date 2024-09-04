@@ -1,10 +1,12 @@
-from debug_toolbar.toolbar import debug_toolbar_urls
+from core.settings.base import DEBUG
+
+if DEBUG:
+    from debug_toolbar.toolbar import debug_toolbar_urls
 from django.conf import settings
 from django.conf.urls.static import static
 from django.contrib import admin
 from django.urls import path, include
 
-from core.settings.base import DEBUG
 
 urlpatterns = [
     path('admin/', admin.site.urls),
