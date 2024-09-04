@@ -9,7 +9,7 @@ from core.settings.base import DEBUG
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('apps.api.urls')),
-    path('', include('frontend.urls')),
+    path('', include('apps.frontend.urls')),
     # path('api-auth/', include('rest_framework.urls'))
 ]
 
